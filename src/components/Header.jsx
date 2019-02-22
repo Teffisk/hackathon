@@ -39,6 +39,7 @@ const Header = (props) => {
           /> 
           <p className="dib b pa0 ma0 ml2">2013</p>
         </div>
+        <span>2013</span>
       </div>
     </header>
   )
