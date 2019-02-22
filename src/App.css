@@ -54,8 +54,21 @@
 }
 
 .slider {
-  border: 2px solid red;
   display: inline-block;
+}
+
+.slider-parent {
+  margin: 0 auto!important;
+  display: inline-block;
+}
+
+.slider-section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.slider-section span {
+  margin: 1em;
 }
 
 .h3-5 {

@@ -3,8 +3,9 @@ import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 
 const Header = (props) => { 
-  // const wrapperStyle = { width: 400, margin: 50 };
-  const selected = "f4 lh-copy h3-5 ttu fw5 link dim ba bw1 ph3 pb3 pt3 mb2 dib black bg-white pointer selected relative shadow-5";
+  const wrapperStyle = { width: 400, margin: 0 };
+  const selected = "f4 lh-copy h3-5 ttu fw5 link dim ba bw1 ph3 pb3 pt3 mb2 dib black bg-white pointer selected";
+
   const notSelected = "f4 lh-copy h3 ttu fw5 link dim ph3 pb3 pt3 mb2 dib white bg-black pointer";
 
   return (
@@ -43,6 +44,7 @@ const Header = (props) => {
           /> 
           <p className="dib b">2013</p>
         </div>
+        <span>2013</span>
       </div>
     </header>
   )
